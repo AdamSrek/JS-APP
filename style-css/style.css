@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2b3e50, #4b728b); /* Tmavší modrá a šedá */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    background: rgba(25, 35, 45, 0.9); /* Tmavší pozadí pro lepší kontrast */
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #42a5f5; /* Jasně modrá pro nadpis */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-transform: uppercase; /* Nadpis velkými písmeny */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #bbdefb; /* Světle modrá pro label */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #80deea; /* Světle modrá pro rámečky */
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    border-color: #42a5f5; /* Jasně modrá pro focus */
+}
+
+button {
+    background: #42a5f5; /* Jasně modré tlačítko */
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #1e88e5; /* Tmavší modrá při hoveru */
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #42a5f5; /* Jasně modrá pro výsledek */
+}
+
+.result span {
+    color: #1e88e5; /* Tmavší modrá pro číslo výsledku */
+}
